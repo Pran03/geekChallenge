@@ -1,0 +1,63 @@
+.nav-cont {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.delete-button {
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+.pagination-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.page-no-item {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 3px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.page-no {
+  border-radius: 10px;
+  background-color: #000000;
+  padding: 8px;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: white;
+}
+
+.active {
+  background-color: white;
+  border: solid red;
+  color: black;
+}
+
+.nav-button {
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}

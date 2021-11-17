@@ -1,0 +1,28 @@
+.action-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 3px;
+}
+
+.selected {
+  background-color: rgb(235, 232, 232);
+}
+
+.delete-icon {
+  color: red;
+  font-size: 16px;
+}
+.edit-icon {
+  color: goldenrod;
+  font-size: 16px;
+}
+
+td {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+  width: 200px;
+}

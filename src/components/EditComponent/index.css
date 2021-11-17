@@ -1,0 +1,55 @@
+td {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+  width: 200px;
+}
+@media screen and (min-width: 768px) {
+  td {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  td {
+    width: 200px;
+  }
+}
+
+.input-element {
+  border-radius: 5px;
+  height: 10px;
+  padding: 8px;
+  text-align: center;
+  border-width: 0.5px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .input-element {
+    width: 100px;
+  }
+}
+
+.button {
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  color: #000000;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .btn-con {
+    display: flex;
+  }
+}
+.save {
+  border: 2px solid #24d65d;
+}
+
+.cancel {
+  border: 2px solid red;
+}

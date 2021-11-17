@@ -2,37 +2,85 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-cont {
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .main-cont {
+    height: 100vh;
+  }
+}
+.mini-cont {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (min-width: 768px) {
+  .mini-cont {
+    max-width: 700px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 992px) {
+  .mini-cont {
+    max-width: 1110px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.search-cont {
+  display: flex;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 50%;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  border: solid 0.5px grey;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+th {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+  width: 200px;
+}
+
+td {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  display: flex;
+  justify-content: space-around;
+}
+
+.failure-image {
+  width: auto;
+}
+
+.heading {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 20px;
 }
